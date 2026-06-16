@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Hex codes extracted from the custom Coolors image: https://coolors.co/132a13-31572c-004b23-a3b18a-588157-344e41-3a5a40 */
+  --color-brand-plum: #083344;
+  --color-brand-red: #10b981;
+  --color-brand-yellow: #22d3ee;
+  --color-brand-orange: #06b6d4;
+  --color-brand-navy: #0f766e;
+  --color-brand-rust: #0d9488;
+  --color-brand-crimson: #059669;
+  --color-brand-gold: #34d399;
+  --color-brand-maroon: #0f766e;
+  --color-brand-sun: #22d3ee;
+
+  /* Map palette colors to primary scale */
+  --color-primary-50: #ecfdf5;
+  --color-primary-100: #d1fae5;
+  --color-primary-200: #a7f3d0;
+  --color-primary-300: #6ee7b7;
+  --color-primary-400: #34d399;
+  --color-primary-500: #10b981;
+  --color-primary-600: #059669;
+  --color-primary-700: #047857;
+  --color-primary-800: #065f46;
+  --color-primary-900: #064e3b;
+  --color-primary-950: #022c22;
+
+  /* Map palette colors to secondary scale */
+  --color-secondary-50: #ecfeff;
+  --color-secondary-100: #cffafe;
+  --color-secondary-200: #a5f3fc;
+  --color-secondary-300: #67e8f9;
+  --color-secondary-400: #22d3ee;
+  --color-secondary-500: #06b6d4;
+  --color-secondary-600: #0891b2;
+  --color-secondary-700: #0e7490;
+  --color-secondary-800: #155e75;
+  --color-secondary-900: #164e63;
+  --color-secondary-950: #083344;
+
+  /* Map palette colors to accent scale */
+  --color-accent-50: #f0fdfa;
+  --color-accent-100: #ccfbf1;
+  --color-accent-200: #99f6e4;
+  --color-accent-300: #5eead4;
+  --color-accent-400: #2dd4bf;
+  --color-accent-500: #14b8a6;
+  --color-accent-600: #0d9488;
+  --color-accent-700: #0f766e;
+  --color-accent-800: #115e59;
+  --color-accent-900: #134e4a;
+  --color-accent-950: #042f2e;
+
+  /* Force common light backgrounds to be white only */
+  --color-slate-50: #ffffff;
+  --color-slate-100: #ffffff;
+  --color-gray-50: #ffffff;
+  --color-gray-100: #ffffff;
+  --color-zinc-50: #ffffff;
+  --color-zinc-100: #ffffff;
+
+  --font-sans: "Inter", "sans-serif";
+  --font-display: "Outfit", "sans-serif";
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #ffffff; /* white only */
+  color: #083344; /* Base text matches dark teal */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+.dark body {
+  background-color: #0f172a; /* slate 900 */
+  color: #f8fafc; /* slate 50 */
+}
