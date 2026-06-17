@@ -1,16 +1,283 @@
-# React + Vite
+# 🌱 NayePankh - NGO Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application developed for **NayePankh Foundation** to digitally manage NGO activities, volunteer engagement, donation records, awareness campaigns, and administrative operations. The platform provides a centralized solution for connecting volunteers, donors, and administrators while simplifying day-to-day NGO management.
 
-Currently, two official plugins are available:
+The project aims to improve transparency, accessibility, and efficiency by replacing traditional manual processes with an intuitive digital platform.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+# 📌 Table of Contents
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Overview
+- Problem Statement
+- Objectives
+- Features
+- Technology Stack
+- System Architecture
+- Project Structure
+- Admin Features
+- User Features
+- Screenshots
+- Future Enhancements
+- Deployment
+- License
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 📖 Overview
+
+Non-Governmental Organizations often manage volunteers, donations, events, and awareness campaigns using spreadsheets, paper records, or multiple disconnected platforms. This leads to data inconsistency, communication delays, and inefficient management.
+
+The **NayePankh - NGO Management System** provides a centralized platform where:
+
+- Volunteers can register and participate.
+- Donors can contribute and stay informed.
+- Administrators can efficiently manage operations.
+- Visitors can explore campaigns and events.
+
+The application emphasizes simplicity, accessibility, and scalability.
+
+---
+
+# ❓ Problem Statement
+
+Many NGOs face challenges such as:
+
+- Manual volunteer registration
+- Difficult donation tracking
+- Poor communication between volunteers and administrators
+- Limited online presence
+- Lack of centralized event management
+- Inefficient record maintenance
+
+The project addresses these issues by providing a modern web-based management platform.
+
+---
+
+# 🎯 Objectives
+
+- Digitize NGO operations
+- Simplify volunteer management
+- Improve donor engagement
+- Increase transparency
+- Provide an informative platform about NGO activities
+- Reduce administrative workload
+- Build an accessible and responsive web application
+
+---
+
+# ✨ Features
+
+## 🌐 Public Website
+
+- Responsive Landing Page
+- About NayePankh
+- Mission & Vision
+- Ongoing Campaigns
+- Events Section
+- Gallery
+- Contact Page
+- Frequently Asked Questions
+
+---
+
+## 👥 Volunteer Module
+
+- Volunteer Registration
+- Secure Login
+- Profile Management
+- View Events
+- Participate in Campaigns
+- Track Volunteer Activities
+
+---
+
+## 💝 Donation Module
+
+- Donation Form
+- Donation Records
+- Awareness Campaign Information
+- Support NGO Initiatives
+
+---
+
+## 🔐 Authentication
+
+- Secure Login
+- User Authentication
+- Admin Authentication
+- Protected Routes
+
+---
+
+## 👨‍💼 Admin Dashboard
+
+The admin panel provides complete control over the platform.
+
+### Admin can:
+
+- Manage Volunteers
+- View Registered Users
+- Manage Donations
+- Create Campaigns
+- Update NGO Information
+- View Contact Requests
+- Manage Events
+- Monitor Platform Activity
+
+---
+
+## 📱 Responsive Design
+
+The application is optimized for:
+
+- Desktop
+- Tablet
+- Mobile Devices
+
+---
+
+# 🛠 Technology Stack
+
+## Frontend
+
+- React.js
+- JavaScript (ES6)
+- HTML5
+- CSS3
+
+---
+
+## Backend
+
+- Node.js
+- Express.js
+
+---
+
+## Database
+
+- MongoDB
+
+---
+
+## Authentication
+
+- JWT (JSON Web Token)
+
+---
+
+## Version Control
+
+- Git
+- GitHub
+
+---
+
+## Deployment
+
+- Vercel
+
+---
+
+# 🏗 System Architecture
+
+```
+                User
+                  │
+                  ▼
+        React Frontend
+                  │
+      REST API Requests
+                  │
+                  ▼
+        Express.js Server
+                  │
+        Authentication Layer
+                  │
+                  ▼
+             MongoDB
+```
+
+---
+
+# 📂 Project Structure
+
+```
+NayePankh-NGO
+│
+├── client
+│   ├── public
+│   ├── src
+│   │   ├── assets
+│   │   ├── components
+│   │   ├── pages
+│   │   ├── hooks
+│   │   ├── context
+│   │   ├── services
+│   │   ├── styles
+│   │   └── App.js
+│   │
+│   └── package.json
+│
+├── server
+│   ├── controllers
+│   ├── middleware
+│   ├── models
+│   ├── routes
+│   ├── config
+│   ├── utils
+│   └── server.js
+│
+├── README.md
+└── package.json
+```
+
+---
+
+
+# 💡 Future Enhancements
+
+- Email Notifications
+- Volunteer Attendance Tracking
+- Analytics Dashboard
+- Volunteer Leaderboard
+- Role-Based Access Control
+- Multi-language Support
+- Push Notifications
+- Mobile Application
+
+---
+
+# 🔒 Security Features
+
+- JWT Authentication
+- Password Encryption
+- Protected API Routes
+- Role-Based Authorization
+- Secure Database Communication
+
+---
+
+# 🌍 Impact
+
+The platform enables NGOs to:
+
+- Digitally manage volunteers
+- Improve donor engagement
+- Organize campaigns efficiently
+- Increase operational transparency
+- Reduce paperwork
+- Improve communication
+- Build a stronger online presence
+
+---
+
+
+# 📄 License
+
+This project is developed for educational, portfolio, and demonstration purposes.
+
+---
+
+## ⭐ If you found this project useful, consider giving it a Star on GitHub!
