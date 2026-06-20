@@ -17,7 +17,6 @@ The project aims to improve transparency, accessibility, and efficiency by repla
 - Project Structure
 - Admin Features
 - User Features
-- Screenshots
 - Future Enhancements
 - Deployment
 - License
@@ -75,11 +74,26 @@ The project addresses these issues by providing a modern web-based management pl
 - Mission & Vision
 - Ongoing Campaigns
 - Events Section
+- Programs Ongoing
+- Impact Stories
 - Gallery
+- Get Involved (Internships,Voulnteer,Become a Partner,Work with us)
 - Contact Page
 - Frequently Asked Questions
 
 ---
+
+
+## 💻 AI Features ( Accessible to Admin only)
+
+-  AI Social Post Generator
+-  AI Certificate Generation for Volunteers & Interns
+-  Donation Appeal Generator
+-  Event Report Generator
+-  Appreciation Post Generator
+  
+  ---
+
 
 ## 👥 Volunteer Module
 
@@ -118,6 +132,7 @@ The admin panel provides complete control over the platform.
 
 - Manage Volunteers
 - View Registered Users
+- Access AI Features
 - Manage Donations
 - Create Campaigns
 - Update NGO Information
@@ -133,7 +148,6 @@ The application is optimized for:
 
 - Desktop
 - Tablet
-- Mobile Devices
 
 ---
 
