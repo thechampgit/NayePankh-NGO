@@ -6,7 +6,7 @@ The project aims to improve transparency, accessibility, and efficiency by repla
 
 <br>
 <p align="center">
-  <img scr ="public/bg-slide1.jpg"  alt="A kid with a sunflower" width="500">
+  <img src ="public/bg-slide1.jpg"  alt="A kid with a sunflower" width="500">
 </p>
 
   
