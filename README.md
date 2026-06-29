@@ -4,6 +4,12 @@ A full-stack web application developed for **NayePankh Foundation** to digitally
 
 The project aims to improve transparency, accessibility, and efficiency by replacing traditional manual processes with an intuitive digital platform.
 
+<br>
+<p align="center">
+  <img scr ="public/bg-slide1.jpg"  alt="A kid with a sunflower" width="500">
+</p>
+
+  
 ---
 
 # 📌 Table of Contents
